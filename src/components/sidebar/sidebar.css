@@ -1,0 +1,66 @@
+.sidebar{
+    flex: 20%;
+    height: calc(100vh - 50px);
+    padding : 10px;
+    
+    overflow-y:scroll;
+}
+::-webkit-scrollbar{
+    width: 15px
+}
+
+
+.sidebarlist{
+    padding: 0px !important;
+    list-style: none;
+    margin-left: 20px ;
+}
+
+.sidebaritems{
+    display:flex;
+    margin-bottom: 20px;
+}
+
+.sidebaricon{
+    margin-right: 15px;
+}
+
+.sidebarfrndimg{
+    height : 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.sidebarfrnd{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+    
+}
+
+.sidebarfrndlist{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sidebarfrndname{
+    margin-left: 10px;
+}
+
+.sidebarbtn{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-bottom: 20px;
+     
+}
+
+
+.hr{
+    width: 200px;
+}
